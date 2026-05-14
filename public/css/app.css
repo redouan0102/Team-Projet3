@@ -17,36 +17,45 @@ body {
     background: rgb(28, 28, 28);
     padding: 1% 2% 1% 2%;
     border-radius: 25px;
+    align-items: center;
+    font-weight: bold;
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     flex-direction: row;
     gap: 2.7rem;
 }
-.title-icon{
+
+.title-icon {
     display: flex;
     gap: 4px;
 }
-.title-icon i{
+
+.title-icon i {
     color: green;
     font-size: 20px;
-    
+
 }
-.title{
+
+.title {
     color: white;
 }
-.list li{
-list-style: none;
+
+.list li {
+    list-style: none;
 }
-.list a{
+
+.list a {
     text-decoration: none;
     color: white;
 }
-.list a:hover{
+
+.list a:hover {
     color: green;
 }
-.botona{
+
+.botona {
     width: 7rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
@@ -55,4 +64,74 @@ list-style: none;
     background: rgb(2, 156, 2);
     border: none;
     cursor: pointer;
+}
+
+/* second section */
+
+.second-section {
+    background-color: rgb(230, 189, 147);
+
+    /* justify-content: space-between; */
+}
+
+
+
+.about {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about h3 {
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    width: 100px;
+    padding-bottom: 0.5rem;
+}
+
+.about span {
+    border-bottom: 3px solid green;
+    padding-bottom: 0.5rem;
+}
+
+.about p {
+    color: gray;
+    font-size: 0.9rem;
+    padding-bottom: 1.6rem;
+}
+
+/* !lift side */
+.container-firstsec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag {
+    display: inline-block;
+    background: #042301;
+    color: rgb(9, 219, 9);
+    padding: 1% 2%;
+    /* border: 1px solid rgb(40, 208, 102); */
+    border-radius: 20px;
+    padding-bottom: 1%;
+    /* align-items: center; */
+    font-size: 0.8rem;
+}
+.lift-side{
+background: yellowgreen;
+}
+.lift-side h1{
+    color: white;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+}
+.lift-side .para{
+color: gray;
+font-size: 17px;
+padding-bottom: 1rem;
 }
