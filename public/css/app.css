@@ -1,59 +1,160 @@
-{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 .hero-sec{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 80px 10%;
-    min-height: 80vh;
-    /* background-color: rgb(1, 26, 58); */
+    max-width: 100vh;
+    margin: 7rem 0rem 0rem 0rem;
+    gap: 4rem;
 }
 .grnd-div{
-    max-width: 500px;
-}
-.prgh-studio{
-     color: gray;
-     /* font-size: 1px; */
-     margin-bottom: 20px;
-}
-.title1{
-    font-size: 3.5rem;
-    line-height: 1.1;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: white;
-    
-}
-.group{
-     display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.btn-premier{
-     color:white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    background-color: rgb(30, 173, 30);
-}
-.btn-secondary{
     display: flex;
-    justify-content: flex-end;
-    color:white;
-    /* text-underline:10px; */
-    text-underline-position: below;
+    flex-direction: row;
+}
+.hero-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.hero-desc span{
+    color: gray;
+}
+.hero-desc h1{
+    color: white;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+}
+.hero-desc p{
+    color:gray;
+    font-family: system-ui,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.hero-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.hero-btn1{
+    background-color: green;
+    padding: 1rem 1.5rem 1rem 1rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.hero-btn1 a{
+    color: white;
     text-decoration: none;
 }
-.img-codage{
-    width: 600px;
-    background-image: url(etoile.png.webp);
+.hero-btn:hover{
+    transform: translate(-4px);
+}
+.hero-btn2 a{
+    text-decoration: none;
+    color: white;
+    margin: 0.8rem 0 0 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hero-btn2 {
+    color: white;
+    text-decoration: none;
+
+}
+.hero-btn2:hover a {
+    color: green;
+}
+.hero-btn2 i{
+    color: white;
+    transform: translateX(5px);
+
+}
+.img{
+    transition: transform 0.3s ease;
+}
+.img:hover{
+    transform: scale(1.04);
+}
+.hero-sec{
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    gap: 5rem;
+    padding: 0 0 7rem 0;
+}
+.prt-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw; 
+    border-top: 1px solid gray;
+}
+.prt1 span {
+    color: green;
+    font-size: 3.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    padding: 0 17rem 0 0;
+}
+.prt1 p{
+    color: gray;
+
+}
+
+body {
+    background: rgb(14, 16, 34);
+}
+
+/* TODO THIS IS HEADER */
+.first {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(28, 28, 28);
+    padding: 1% 2% 1% 2%;
+    border-radius: 25px;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2.7rem;
+}
+.title-icon{
+    display: flex;
+    gap: 4px;
+}
+.title-icon i{
+    color: green;
+    font-size: 20px;
+
     
 }
- 
-
-
-    
-
+.title{
+    color: white;
+}
+.list li{
+list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.list a:hover{
+    color: green;
+}
+.botona{
+    width: 7rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 25px;
+    color: aliceblue;
+    background: rgb(2, 156, 2);
+    border: none;
+    cursor: pointer;
+}
