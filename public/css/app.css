@@ -480,3 +480,150 @@ body {
     color: gray;
     font-size: 15px;
 }
+.services-container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+.titre-clr{
+    color: white;
+}
+
+
+.hdr {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.hdr h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid gray;
+}
+
+/* !Ligne verte souligne */
+.hdr h2::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #84cc16;
+    margin: 0.5rem auto 0;
+  
+}
+
+.hdr p {
+    color: #94a3b8;
+    max-width: 40rem;
+    margin: 0 auto;
+
+}
+
+/* !Flexbox  */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+/*! les legnes fexes */
+ .card {
+    flex: 1 1 20rem; 
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(65, 64, 64, 0.509) ;
+ } 
+ 
+
+.card-titre {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nbr {
+    color: #334155;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.card p {
+    color: #94a3b8;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.card a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.foot-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*!"Most Popular" */
+.btn {
+    background-color: #1e293b;
+    color: #84cc16;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    border: 0.05rem solid #9ab86d;
+}
+.dern-prt {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+.dernier-div{ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 1px solid  rgba(65, 64, 64, 0.509) ;
+}
+.dernier-div p{
+    color: gray;
+
+    
+}
+.dern-prt .btn2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.btn2{ 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 5rem;
+    background-color:rgb(123, 177, 0);
+    color:white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    border: 0.05rem solid #84cc16;
+}
+
+
+.dernier-div h1::before{
+    content: "";
+    display:block;
+    
+    margin-bottom: 3rem;
+    width: 49rem;
+}
