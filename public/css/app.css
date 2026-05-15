@@ -205,21 +205,21 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
 }
 
 .about h3 {
     color: white;
     font-weight: bold;
-    border-bottom: 2px solid gray;
-    width: 100px;
-    padding-bottom: 0.5rem;
-    font-size: x-large;
+    border-bottom: 1.3px solid gray;
+    width: 130px;
+    padding-bottom: 0.8rem;
+    font-size: 2rem;
 }
 
 .about span {
     border-bottom: 3px solid green;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
 }
 
 .about p {
@@ -229,6 +229,10 @@ body {
 }
 
 /* !lift side */
+
+.second-section{
+    padding-bottom: 7rem;
+}
 .container-firstsec {
     display: flex;
     justify-content: space-between;
@@ -260,7 +264,7 @@ body {
 .lift-side .para {
     color: gray;
     font-size: 17px;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
 
 }
 
@@ -317,7 +321,7 @@ body {
 /* ?BUTTUNS */
 .lein {
     display: flex;
-    padding-top: 0.7rem;
+    padding-top: 1.5rem;
 }
 
 .bot1 {
@@ -480,6 +484,36 @@ body {
     color: gray;
     font-size: 15px;
 }
+
+/* todo bottom percentage */
+.container-percentage{
+    background: rgb(31, 37, 38);
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+    border-radius: 15px;
+
+}
+.percentage{
+    text-align: center;
+}
+.percentage h1{
+    color: #2cad20;
+}
+.percentage p{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: rgb(176, 174, 174);
+    padding-top: 0.4rem;
+    
+}
+
+
+
+
+/* !three section */
 .services-container {
     max-width: 75rem;
     margin: 0 auto;
